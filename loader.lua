@@ -1,5 +1,5 @@
 -- Inovoproductions Game Hub Loader
--- Load via: loadstring(game:HttpGet("https://raw.githubusercontent.com/YOURNAME/inovoproductions/main/loader.lua"))()
+-- Load via: loadstring(game:HttpGet("https://raw.githubusercontent.com/lollakillah/2/main/loader.lua"))()
 
 local version = "1.0.1"
 
@@ -15,7 +15,7 @@ local function SafeLoad()
     
     -- Try to load the main hub with proper error handling
     local success, mainScript = pcall(function()
-        return game:HttpGet("https://raw.githubusercontent.com/YOURNAME/inovoproductions/main/main.lua", true)
+        return game:HttpGet("https://raw.githubusercontent.com/lollakillah/2/main/main.lua", true)
     end)
     
     if not success then
